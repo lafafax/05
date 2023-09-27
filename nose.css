@@ -1,0 +1,84 @@
+body {
+    background-color: #000000;
+    margin: 0 auto;
+  padding: 0;
+  width: 90%;
+}
+
+aside {
+    text-align: center;
+    display: flex;
+    background-color: #3E5D32;
+    color: white;
+    flex: 1;
+    margin-left: 10px;
+    padding: 1%;
+}
+aside li {
+    padding-bottom: 10px;
+  }
+  main {
+    display: flex;
+  }
+
+header {
+    background-color: #000000;
+    font-size: 40px;
+    color: #4B8F8C;
+    text-align: center;
+    margin: 0;
+    padding: 10px 30px 10px;
+
+}
+
+section {
+    background-color: #ffffff;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 1%;
+    margin-left: 10px;
+    flex: 4;
+
+}
+#opciones {
+    text-align: center;
+    list-style: none; /* elimina los puntitos (viñeta) */
+}
+
+#opciones li {
+    display: block;
+    padding: 10px;
+}
+
+.boton {
+    text-decoration: none; /* Eliminamos el subrayado del enlace */
+    color: rgb(0, 0, 0);
+    border: 2px solid #FE8D85;
+    padding: 5px; /* margen interior */
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #ffffff;
+}
+.boton:hover { /* pseudoclase hover se activa cuando el mouse está por encima del elemento */
+    background-color: #FE8D85;
+    color: rgb(255, 255, 255);
+}
+.albums{
+    width: 200px;
+}
+h2{
+    font-size: 40px;
+}
+.mimi {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bolder;
+}
+p {
+    font-style: oblique;
+}
+footer {
+    margin-top: 10px;
+    color: #ffffff;
+  }
